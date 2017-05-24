@@ -1,6 +1,6 @@
 {
-    "name": "ricks/live-editing",
-    "description": "Check who is editing a resource",
+    "name": "ricardotano/livedit",
+    "description": "Good old way to know who is where in your site",
     "type": "laravel-service",
     "authors": [
         {
