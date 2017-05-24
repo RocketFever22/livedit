@@ -8,5 +8,6 @@
             "email": "ricardoo@hellobaytree.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "license": "GPL-3.0+"
 }
