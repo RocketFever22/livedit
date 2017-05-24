@@ -1,0 +1,12 @@
+{
+    "name": "ricks/live-editing",
+    "description": "Check who is editing a resource",
+    "type": "laravel-service",
+    "authors": [
+        {
+            "name": "Ricardo Otaño",
+            "email": "ricardoo@hellobaytree.com"
+        }
+    ],
+    "require": {}
+}
