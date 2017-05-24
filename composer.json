@@ -8,6 +8,14 @@
             "email": "ricardoo@hellobaytree.com"
         }
     ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "Ricks\\livedit\\": "src/"
+        }
+    },
     "require": {},
     "license": "GPL-3.0+"
 }
