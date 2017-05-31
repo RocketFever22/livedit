@@ -8,6 +8,7 @@ This is a [Laravel 5](https://laravel.com/docs/5.3/installation) package. Go thr
 ## Installing & setting up
 
 + `$ composer requrie ricardotano/livedit`
++ Add `Ricks\livedit\LiveditServiceProvider::class,` to your `config/app.php` Service providers array.
 + `$ php artisan vendor:publish`
 + Optional: Update `/config/livedit.php` file to set your own migration parameters or let it as is.
 + `$ php artisan migrate`
