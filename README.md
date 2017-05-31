@@ -14,14 +14,20 @@ This is a [Laravel 5](https://laravel.com/docs/5.3/installation) package. Go thr
 
 ## How does it work
 #### Routes
+
 `GET livedit/ask/{resource_type}`
+
 This route returns a list of ids using the specified resource in the last minute
+
 `POST livedit/publish`
+
 This route is used to add a resource usage. The record will be removed after a minute (or the time in seconds you configured into `config/livedit.php` file) to keep the table short.
 
 #### Example
+
 Publish a new resource usage.
 `resource_name` is the name of the resource you want to track, it can be changed in `config/livedit.php` file. 
+
 ```
 $.post('livedit/publish', {
    resource_name : string_resource_name,
@@ -29,6 +35,7 @@ $.post('livedit/publish', {
 })
 .then(handleSuccess, handleError);
 ```
+
 Get a list of resources for the past minute, for a given `resource_name`
 
 ```
