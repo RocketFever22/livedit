@@ -16,6 +16,8 @@
             "Ricks\\livedit\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "ricardotano/livedit": "^0.2.0"
+    },
     "license": "GPL-3.0+"
 }
