@@ -49,5 +49,3 @@ Yes, you can use web scokets for a more fancy and usefull tracking, but sometime
 
 ## Last words
 Thanks for reading this and please, remember I created this for everyone, so everyone is welcome to add support or new features.
-
-
